@@ -1,0 +1,51 @@
+.header {
+  background: #1f3d3a;
+  color: #fff;
+}
+
+.conteudo {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #cfe3e0;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.link:hover { background: rgba(255, 255, 255, 0.1); }
+
+.ativo {
+  background: #fff;
+  color: #1f3d3a;
+  font-weight: 600;
+}
+
+.contador {
+  margin-left: 6px;
+  background: #e0a526;
+  color: #1f2a2e;
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}

@@ -1,0 +1,9 @@
+/* Único CSS global: só o básico. O resto está em CSS Modules. */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f6f5f1;
+  color: #1f2a2e;
+}

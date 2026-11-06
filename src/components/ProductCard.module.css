@@ -1,0 +1,38 @@
+.card {
+  background: #fff;
+  border: 1px solid #e2dfd6;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nome { margin: 0; font-size: 1.1rem; }
+
+.descricao {
+  margin: 0;
+  color: #5b6b6e;
+  flex: 1;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.preco { font-size: 1.15rem; }
+
+.botao {
+  background: #1f3d3a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.botao:hover { background: #2b5651; }
