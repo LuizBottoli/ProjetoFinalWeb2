@@ -1,0 +1,67 @@
+.titulo { margin: 0 0 16px; }
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.total {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.limpar {
+  background: none;
+  border: 1px solid #c9c5b8;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.admin {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid #e2dfd6;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.acoes { display: flex; gap: 8px; }
+
+.acoes button {
+  background: #fff;
+  border: 1px solid #c9c5b8;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.acoes .perigo { color: #b3372f; border-color: #e3b5b1; }
+
+@media (max-width: 760px) {
+  .admin { grid-template-columns: 1fr; }
+}
